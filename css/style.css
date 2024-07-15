@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+/*MAIN*/ 
+main {
+    background-color: #083B4C;
+}
+.my-container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-container > h1 {
+    color: white;
+    font-size: 7rem;
+    padding: 20px 0;
+}
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-col {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin: 10px;
+    
+}
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.normal-square {
+    background-color: #1389B2;
+}
+.fizz {
+    background-color: #0CD6A1;
+}
+.buzz {
+    background-color: #FFD166;
+}
+.fizzbuzz {
+    background-color: #F0466F;
+}
